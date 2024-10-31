@@ -1,0 +1,18 @@
+.pagseguro-internacional-credit-card-div{
+	width: 100% !important;
+}
+
+.pagseguro-internacional-hide{
+	display: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 500px) {
+	.woocommerce #payment ul.payment_methods li #pagseguro-internacional-credit-card-fields p.form-row.form-row-first,
+	.woocommerce-page #payment ul.payment_methods li #pagseguro-internacional-credit-card-fields p.form-row.form-row-first,
+	.woocommerce #payment ul.payment_methods li #pagseguro-internacional-credit-card-fields p.form-row.form-row-last,
+	.woocommerce-page #payment ul.payment_methods li #pagseguro-internacional-credit-card-fields p.form-row.form-row-last {
+		float: none;
+		width: 96%;
+	}
+}
